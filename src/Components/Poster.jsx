@@ -1,14 +1,14 @@
 import { Link } from "react-router-dom";
 
 const Poster = ({ poster }) => {
-    const { id, image, adventure_title, short_description } = poster;
+    const { id, movie_poster, adventure_title, short_description } = poster;
     return (
         <div>
             <div className="card bg-base-100 shadow-sm">
                 <figure>
                     <img
-                        src={image}
-                        className="h-[255px] w-[380px] rounded-2xl"
+                        src={movie_poster}
+                        className="h-[350px] w-[380px] rounded-2xl"
                         alt={Poster} />
                 </figure>
                 <div className="card-body">

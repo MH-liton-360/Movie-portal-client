@@ -8,14 +8,14 @@ const PosterDetails = () => {
 
     const poster = data.find(poster => poster.id.toString() === id);
 
-    const { image, adventure_title, short_description, adventure_cost, booking_availability, location, duration, max_group_size, special_instructions } = poster;
+    const { movie_poster, adventure_title, short_description, adventure_cost, booking_availability, location, duration, max_group_size, special_instructions } = poster;
     return (
 
         <section className="justify-items-center pt-10">
             <div className="card bg-base-100 w-96 shadow-sm">
                 <figure>
                     <img
-                        src={image}
+                        src={movie_poster}
                         className="p-2 rounded-4xl"
                         alt="" />
                 </figure>

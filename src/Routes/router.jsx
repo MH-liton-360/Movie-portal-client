@@ -14,7 +14,7 @@ const router = createBrowserRouter([
         element: <HomeLayout></HomeLayout>,
         children: [
             {
-                path: "Adventure/:id",
+                path: "Poster/:id",
                 element: (
                     <PrivateRoute>
                         <PosterDetails></PosterDetails>,
