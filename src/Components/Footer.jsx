@@ -1,4 +1,4 @@
-import logo from '../assets/mountain-trekking-and-adventure-logo-free-vector.jpg'
+import logo from '../assets/movie-media-letter-logo.jpg'
 import github from '../assets/github-logo-png-transparent-png.png'
 
 const Footer = () => {
@@ -13,7 +13,7 @@ const Footer = () => {
                     className="inline-block rounded-2xl"
                 />
                 <p className="font-bold p-2">
-                    Eco-Adventure LTD.
+                    Movie-Portal LTD.
                     <br />
                     Providing reliable tech since 2025
                 </p>
