@@ -1,5 +1,5 @@
 import { Link, NavLink } from 'react-router-dom';
-import logo from '../assets/mountain-trekking-and-adventure-logo-free-vector.jpg'
+import logo from '../assets/movie-media-letter-logo.jpg'
 import userLogo from "../assets/white-profile-icon-png-7.png"
 import { useContext } from 'react';
 import { AuthContext } from '../Provider/AuthProvider';
@@ -13,9 +13,9 @@ const Navbar = () => {
 
     const links = <>
         <li><NavLink to="/">Home</NavLink> </li>
-        <li><NavLink to="/auth/register">About</NavLink> </li>
-        <li><NavLink to="/auth/register">Destination</NavLink> </li>
-        <li><NavLink to="/auth/register">Booking</NavLink> </li>
+        <li><NavLink to="/auth/register">All Movies</NavLink> </li>
+        <li><NavLink to="/auth/register">Add Movie</NavLink> </li>
+        <li><NavLink to="/auth/register">My Favorites</NavLink> </li>
     </>
 
     return (
