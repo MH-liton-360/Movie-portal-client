@@ -1,0 +1,140 @@
+[
+    {
+        "adventure_title": "Jungle Trekking Expedition",
+        "image": "https://i.ibb.co/JjwrvwFF/1.jpg",
+        "id": 101,
+        "category_name": "Hiking & Trekking",
+        "short_description": "Explore the heart of the rainforest with experienced guides.",
+        "adventure_cost": "$150 per person",
+        "booking_availability": "Available year-round",
+        "location": "Amazon Rainforest, Brazil",
+        "duration": "3 days, 2 nights",
+        "adventure_level": "Intermediate",
+        "included_items": [
+            "Guide",
+            "Camping gear",
+            "Meals"
+        ],
+        "eco_friendly_features": [
+            "Leave no trace policy",
+            "Eco-lodges used"
+        ],
+        "max_group_size": 10,
+        "special_instructions": "Bring insect repellent and waterproof gear."
+    },
+    {
+        "adventure_title": "Desert Dune Safari",
+        "image": "https://i.ibb.co/GQCcN5Tm/sunrise-desert-safari.jpg",
+        "id": 102,
+        "category_name": "Safari & Exploration",
+        "short_description": "Experience the thrill of riding over golden sand dunes.",
+        "adventure_cost": "$120 per person",
+        "booking_availability": "October to March",
+        "location": "Sahara Desert, Morocco",
+        "duration": "2 days, 1 night",
+        "adventure_level": "Beginner",
+        "included_items": [
+            "Camel ride",
+            "Guide",
+            "Overnight desert camp"
+        ],
+        "eco_friendly_features": [
+            "Solar-powered camps",
+            "Water conservation measures"
+        ],
+        "max_group_size": 15,
+        "special_instructions": "Wear lightweight clothing and bring sunglasses."
+    },
+    {
+        "adventure_title": "Deep Sea Diving Adventure",
+        "image": "https://i.ibb.co/qL1WFb45/deep-water-diving-buceo-profundo-4.jpg",
+        "id": 103,
+        "category_name": "Water Adventures",
+        "short_description": "Discover the underwater world with professional divers.",
+        "adventure_cost": "$200 per person",
+        "booking_availability": "April to October",
+        "location": "Great Barrier Reef, Australia",
+        "duration": "1 day",
+        "adventure_level": "Advanced",
+        "included_items": [
+            "Diving equipment",
+            "Certified instructor",
+            "Lunch"
+        ],
+        "eco_friendly_features": [
+            "Marine-safe sunscreen provided",
+            "No plastic policy"
+        ],
+        "max_group_size": 8,
+        "special_instructions": "Must have a diving certification."
+    },
+    {
+        "adventure_title": "Mountain Climbing Challenge",
+        "image": "https://i.ibb.co/5h83dvzt/supportive-hiker-helping-friend-reach-mountain-top-generative-ai-896194-4374.jpg",
+        "id": 104,
+        "category_name": "Climbing & Mountaineering",
+        "short_description": "Conquer one of the highest peaks with expert guidance.",
+        "adventure_cost": "$500 per person",
+        "booking_availability": "June to September",
+        "location": "Mount Kilimanjaro, Tanzania",
+        "duration": "6 days, 5 nights",
+        "adventure_level": "Expert",
+        "included_items": [
+            "Climbing gear",
+            "Meals",
+            "Professional guides"
+        ],
+        "eco_friendly_features": [
+            "Waste management system",
+            "Use of biodegradable products"
+        ],
+        "max_group_size": 6,
+        "special_instructions": "Must be physically fit and have prior trekking experience."
+    },
+    {
+        "adventure_title": "Arctic Snow Expedition",
+        "image": "https://i.ibb.co/bgYMcXsp/R.jpg",
+        "id": 105,
+        "category_name": "Extreme Adventures",
+        "short_description": "A thrilling journey through icy landscapes and glaciers.",
+        "adventure_cost": "$700 per person",
+        "booking_availability": "December to February",
+        "location": "Svalbard, Norway",
+        "duration": "5 days, 4 nights",
+        "adventure_level": "Expert",
+        "included_items": [
+            "Thermal gear",
+            "Experienced guide",
+            "Survival training"
+        ],
+        "eco_friendly_features": [
+            "No engine-powered transport",
+            "Eco-safe lodging"
+        ],
+        "max_group_size": 5,
+        "special_instructions": "Prepare for extreme cold conditions."
+    },
+    {
+        "adventure_title": "Rainforest Canopy Zipline",
+        "image": "https://i.ibb.co/BHy63nsq/Zip-Borneo-Experience-Adventurein-Kiulu-Valley.jpg",
+        "id": 106,
+        "category_name": "Thrill & Adventure",
+        "short_description": "Soar above the treetops for a bird’s-eye view of the rainforest.",
+        "adventure_cost": "$75 per person",
+        "booking_availability": "Available year-round",
+        "location": "Costa Rica",
+        "duration": "Half-day",
+        "adventure_level": "Beginner",
+        "included_items": [
+            "Safety gear",
+            "Instructor",
+            "Refreshments"
+        ],
+        "eco_friendly_features": [
+            "Sustainable cable systems",
+            "No harm to trees"
+        ],
+        "max_group_size": 12,
+        "special_instructions": "Wear comfortable clothing and closed-toe shoes."
+    }
+]
