@@ -8,6 +8,7 @@ const Error = () => {
             <p className="text-gray-600 mb-6">
                 The page you're looking for doesn't exist or has been moved.
             </p>
+
             <Link to="/" className="btn btn-primary text-white px-6 py-3 rounded-lg">
                 Go to Home
             </Link>

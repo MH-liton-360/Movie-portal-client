@@ -2,7 +2,6 @@ import banner_01 from "../assets/deadpool-2-movie-2018-poster-a2.jpg"
 import banner_02 from "../assets/ariel-and-flounder-cc.jpg"
 import banner_03 from "../assets/Drumboys.jpg"
 
-
 const Banner = () => {
     return (
         <div className="carousel w-full pt-10">
