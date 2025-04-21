@@ -8,14 +8,14 @@ const Poster = ({ poster }) => {
                 <figure>
                     <img
                         src={movie_poster}
-                        className="h-[350px] w-[380px] rounded-2xl"
+                        className="h-[280px] w-[380px] rounded-2xl"
                         alt={Poster} />
                 </figure>
                 <div className="card-body">
                     <h2 className="card-title">{adventure_title}</h2>
                     <p className="text-sm font-light py-2">{short_description}</p>
                     <div className="card-actions justify-end">
-                        <button className="btn btn-primary"><Link to={`/Poster/${id}`}>Details</Link></button>
+                        <button className="btn btn-primary"><Link to={`/Poster/${id}`}> See Details</Link></button>
                     </div>
                 </div>
             </div>
