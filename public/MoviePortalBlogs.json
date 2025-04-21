@@ -7,7 +7,14 @@
         "duration": "2h 28m",
         "release_year": 2010,
         "rating": 8.8,
-        "summary": "A skilled thief who steals corporate secrets through dream-sharing technology is given the inverse task of planting an idea into a target's subconscious."
+        "summary": "A skilled thief who steals corporate secrets through dream-sharing technology is given the inverse task of planting an idea into a target's subconscious.",
+        "cast": [
+            "Leonardo DiCaprio",
+            "Joseph Gordon-Levitt",
+            "Elliot Page"
+        ],
+        "country": "USA",
+        "language": "English"
     },
     {
         "id": 2,
@@ -17,7 +24,14 @@
         "duration": "2h 49m",
         "release_year": 2014,
         "rating": 8.6,
-        "summary": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival."
+        "summary": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
+        "cast": [
+            "Matthew McConaughey",
+            "Anne Hathaway",
+            "Jessica Chastain"
+        ],
+        "country": "USA",
+        "language": "English"
     },
     {
         "id": 3,
@@ -27,7 +41,14 @@
         "duration": "2h 22m",
         "release_year": 1994,
         "rating": 9.3,
-        "summary": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency."
+        "summary": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+        "cast": [
+            "Tim Robbins",
+            "Morgan Freeman",
+            "Bob Gunton"
+        ],
+        "country": "USA",
+        "language": "English"
     },
     {
         "id": 4,
@@ -37,7 +58,14 @@
         "duration": "2h 12m",
         "release_year": 2019,
         "rating": 8.6,
-        "summary": "Greed and class discrimination threaten the newly formed symbiotic relationship between the wealthy Park family and the destitute Kim clan."
+        "summary": "Greed and class discrimination threaten the newly formed symbiotic relationship between the wealthy Park family and the destitute Kim clan.",
+        "cast": [
+            "Song Kang-ho",
+            "Lee Sun-kyun",
+            "Cho Yeo-jeong"
+        ],
+        "country": "South Korea",
+        "language": "Korean"
     },
     {
         "id": 5,
@@ -47,7 +75,14 @@
         "duration": "2h 32m",
         "release_year": 2008,
         "rating": 9.0,
-        "summary": "Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice when a villain known as the Joker wreaks havoc on Gotham."
+        "summary": "Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice when a villain known as the Joker wreaks havoc on Gotham.",
+        "cast": [
+            "Christian Bale",
+            "Heath Ledger",
+            "Aaron Eckhart"
+        ],
+        "country": "USA",
+        "language": "English"
     },
     {
         "id": 6,
@@ -57,6 +92,13 @@
         "duration": "3h 12m",
         "release_year": 2022,
         "rating": 7.7,
-        "summary": "Jake Sully lives with his newfound family formed on the extrasolar moon Pandora. Trouble soon follows them, and Jake must protect his family and people."
+        "summary": "Jake Sully lives with his newfound family formed on the extrasolar moon Pandora. Trouble soon follows them, and Jake must protect his family and people.",
+        "cast": [
+            "Sam Worthington",
+            "Zoe Saldana",
+            "Sigourney Weaver"
+        ],
+        "country": "USA",
+        "language": "English"
     }
 ]

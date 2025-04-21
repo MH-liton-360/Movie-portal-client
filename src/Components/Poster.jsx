@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 
 const Poster = ({ poster }) => {
-    const { id, movie_poster, adventure_title, short_description } = poster;
+    const { id, movie_poster, movie_Title, genre, release_year, rating, duration } = poster;
     return (
         <div>
             <div className="card bg-base-100 shadow-sm">
@@ -12,12 +12,26 @@ const Poster = ({ poster }) => {
                         alt={Poster} />
                 </figure>
                 <div className="card-body">
-                    <h2 className="card-title">{adventure_title}</h2>
-                    <p className="text-sm font-light py-2">{short_description}</p>
+                    <h2 className="card-title">{movie_Title}</h2>
+                    <p>{genre}</p>
+
+                    <div className="divider"></div>
+                    <div className="grid grid-cols-2 gap-x-6 gap-y-3 ">
+                        <div className="flex flex-col space-y-3">
+                            <p><strong>Rating:</strong> {rating}</p>
+                            <p><strong>Release_year:</strong> {release_year}</p>
+                        </div>
+
+                        <div className="flex flex-col space-y-3">
+                            <p><strong>Duration:</strong> {duration}</p>
+                        </div>
+                    </div>
                     <div className="card-actions justify-end">
                         <button className="btn btn-primary"><Link to={`/Poster/${id}`}> See Details</Link></button>
                     </div>
                 </div>
+
+
             </div>
         </div>
     );

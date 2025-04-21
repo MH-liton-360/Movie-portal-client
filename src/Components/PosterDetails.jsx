@@ -8,7 +8,7 @@ const PosterDetails = () => {
 
     const poster = data.find(poster => poster.id.toString() === id);
 
-    const { movie_poster, adventure_title, short_description, adventure_cost, booking_availability, location, duration, max_group_size, special_instructions } = poster;
+    const { movie_poster, movie_Title, genre, release_year, rating, duration, language, country, cast, summary } = poster;
     return (
 
         <section className="justify-items-center pt-10">
@@ -20,25 +20,27 @@ const PosterDetails = () => {
                         alt="" />
                 </figure>
                 <div className="card-body">
-                    <h2 className="card-title">{adventure_title}</h2>
-                    <p>{short_description}</p>
+                    <h2 className="card-title">{movie_Title}</h2>
+                    <p>{genre}</p>
 
                     <div className="divider"></div>
 
                     <div className="grid grid-cols-2 gap-x-6 gap-y-3 max-w-md mx-auto">
                         <div className="flex flex-col space-y-3">
-                            <p><strong>Cost:</strong> {adventure_cost}</p>
-                            <p><strong>Booking:</strong> {booking_availability}</p>
-                            <p><strong>Location:</strong> {location}</p>
+                            <p><strong>Rating:</strong> {rating}</p>
+                            <p><strong>Release_year:</strong> {release_year}</p>
+                            <p><strong>language:</strong> {language}</p>
                         </div>
 
                         <div className="flex flex-col space-y-3">
                             <p><strong>Duration:</strong> {duration}</p>
-                            <p><strong>Size:</strong> {max_group_size}</p>
-                            <p><strong>Instruction:</strong> {special_instructions}</p>
+                            <p><strong>Country:</strong> {country}</p>
+                            <p><strong>Cast:</strong> {cast}</p>
                         </div>
                     </div>
-
+                    <div>
+                        <p><strong>Summary:</strong> {summary}</p>
+                    </div>
 
                 </div>
             </div>
