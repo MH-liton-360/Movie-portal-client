@@ -13,9 +13,8 @@ const Navbar = () => {
 
     const links = <>
         <li><NavLink to="/">Home</NavLink> </li>
-        <li><NavLink to="/auth/register">All Movies</NavLink> </li>
-        <li><NavLink to="/auth/register">Add Movie</NavLink> </li>
-        <li><NavLink to="/auth/register">My Favorites</NavLink> </li>
+        <li><NavLink to="/add-movies">Add Movies</NavLink> </li>
+        <li><NavLink to="/My-Favorites">My Favorites</NavLink> </li>
     </>
 
     return (

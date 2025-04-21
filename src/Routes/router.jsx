@@ -6,6 +6,8 @@ import Register from "../Pages/Register";
 import PrivateRoute from "./PrivateRoute";
 import Error from "../Components/Error";
 import PosterDetails from "../Components/PosterDetails";
+import AddMovies from "../Components/AddMovies";
+import MyFavorites from "../Components/MyFavorites";
 
 const router = createBrowserRouter([
 
@@ -22,6 +24,22 @@ const router = createBrowserRouter([
                 ),
                 loader: () => fetch('/MoviePortalBlogs.json'),
 
+            },
+            {
+                path: "add-movies",
+                element: (
+                    <PrivateRoute>
+                        <AddMovies></AddMovies>
+                    </PrivateRoute>
+                )
+            },
+            {
+                path: "My-Favorites",
+                element: (
+                    <PrivateRoute>
+                        <MyFavorites></MyFavorites>
+                    </PrivateRoute>
+                )
             },
         ]
     },
