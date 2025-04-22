@@ -1,3 +1,5 @@
+import { data } from "react-router-dom";
+
 const AddMovies = () => {
     const handleAddMovie = event => {
         event.preventDefault();
@@ -16,6 +18,18 @@ const AddMovies = () => {
         console.log(newMovie);
 
         //send data to the server
+        fetch('http://localhost:5000/movie', {
+            method: 'POST',
+            headers: {
+                'content-type': 'application/json'
+            },
+            body: JSON.stringify(newMovie)
+        })
+            .then(res => res.json())
+            .then(data => {
+                console.log(data);
+
+            })
 
     }
     return (
