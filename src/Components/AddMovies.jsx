@@ -18,7 +18,7 @@ const AddMovies = () => {
         console.log(newMovie);
 
         //send data to the server
-        fetch('http://localhost:5000/movie', {
+        fetch('https://movie-portal-server-lsyhp9zsw-liton72524s-projects.vercel.app/movie', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'
