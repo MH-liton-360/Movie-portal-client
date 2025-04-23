@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import Poster from "./poster";
 const Main = () => {
 
+
     const [posters, setPosters] = useState([]);
 
     useEffect(() => {
@@ -19,6 +20,7 @@ const Main = () => {
                     posters.map(poster => <Poster poster={poster} key={poster.id}></Poster>)
                 }
             </div>
+
         </div>
     );
 };

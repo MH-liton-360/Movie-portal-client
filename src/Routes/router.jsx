@@ -14,6 +14,7 @@ const router = createBrowserRouter([
     {
         path: "/",
         element: <HomeLayout></HomeLayout>,
+
         children: [
             {
                 path: "Poster/:id",
@@ -35,6 +36,8 @@ const router = createBrowserRouter([
             },
             {
                 path: "My-Favorites",
+                loader: () => fetch('http://localhost:5000/movie'),
+
                 element: (
                     <PrivateRoute>
                         <MyFavorites></MyFavorites>

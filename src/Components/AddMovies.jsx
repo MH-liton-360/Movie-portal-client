@@ -1,4 +1,4 @@
-import { data } from "react-router-dom";
+import Swal from 'sweetalert2'
 
 const AddMovies = () => {
     const handleAddMovie = event => {
@@ -27,7 +27,15 @@ const AddMovies = () => {
         })
             .then(res => res.json())
             .then(data => {
-                console.log(data);
+                console.log('hello', data);
+                if (data.insertedId) {
+                    Swal.fire({
+                        title: 'Success!',
+                        text: 'Movie added successfully!',
+                        icon: 'success',
+                        confirmButtonText: 'Cool'
+                    });
+                }
 
             })
 
