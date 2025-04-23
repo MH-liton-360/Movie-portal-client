@@ -5,6 +5,7 @@ import { useState } from "react";
 const MyFavorites = () => {
 
     const loadedMovies = useLoaderData();
+
     const [movies, setMovies] = useState(loadedMovies);
 
     return (
@@ -13,7 +14,7 @@ const MyFavorites = () => {
 
             <div className="grid md:grid-cols-2 gap-4">
                 {
-                    movies.map(movie => <AddMovieCard
+                    movies?.map(movie => <AddMovieCard
                         key={movie._id}
                         movie={movie}
                         movies={movies}
