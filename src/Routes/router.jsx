@@ -36,7 +36,7 @@ const router = createBrowserRouter([
             },
             {
                 path: "My-Favorites",
-                loader: () => fetch('https://movie-portal-server-lsyhp9zsw-liton72524s-projects.vercel.app/add-movie'),
+                loader: () => fetch('https://movie-portal-server-bay-seven.vercel.app/add-movie'),
 
                 element: (
                     <PrivateRoute>
