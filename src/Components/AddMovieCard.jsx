@@ -18,8 +18,7 @@ const AddMovieCard = ({ movie, movies, setMovies }) => {
         }).then((result) => {
             if (result.isConfirmed) {
 
-
-                fetch(`http://localhost:5000/movie/${_id}`, {
+                fetch(`https://movie-portal-server-lsyhp9zsw-liton72524s-projects.vercel.app/movie/${_id}`, {
                     method: 'DELETE'
                 })
                     .then((res) => res.json())
