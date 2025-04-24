@@ -36,14 +36,24 @@ const router = createBrowserRouter([
             },
             {
                 path: "My-Favorites",
-                loader: () => fetch('https://movie-portal-server-bay-seven.vercel.app/movie'),
-
+                loader: async () => {
+                    try {
+                        const res = await fetch('https://movie-portal-server-bay-seven.vercel.app/movie');
+                        const data = await res.json();
+                        return Array.isArray(data) ? data : [];
+                    } catch (error) {
+                        console.error("Loader failed:", error);
+                        throw new Response("Failed to load favorite movies", { status: 500 });
+                    }
+                },
                 element: (
                     <PrivateRoute>
-                        <MyFavorites></MyFavorites>
+                        <MyFavorites />
                     </PrivateRoute>
-                )
+                ),
+                errorElement: <Error />
             },
+
         ]
     },
 
