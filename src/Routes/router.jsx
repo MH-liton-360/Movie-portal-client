@@ -20,7 +20,7 @@ const router = createBrowserRouter([
                 path: "Poster/:id",
                 element: (
                     <PrivateRoute>
-                        <PosterDetails></PosterDetails>,
+                        <PosterDetails></PosterDetails>
                     </PrivateRoute>
                 ),
                 loader: () => fetch('/MoviePortalBlogs.json'),
@@ -36,7 +36,7 @@ const router = createBrowserRouter([
             },
             {
                 path: "My-Favorites",
-                loader: () => fetch('https://movie-portal-server-bay-seven.vercel.app/add-movie'),
+                loader: () => fetch('https://movie-portal-server-bay-seven.vercel.app/movie'),
 
                 element: (
                     <PrivateRoute>
@@ -53,17 +53,17 @@ const router = createBrowserRouter([
         children: [
             {
                 path: "/auth/login",
-                element: <Login></Login>,
+                element: <Login></Login>
             },
             {
                 path: "/auth/register",
-                element: <Register></Register>,
+                element: <Register></Register>
             },
         ]
     },
     {
         path: "*",
-        element: <Error></Error>,
+        element: <Error></Error>
     },
 
 ]);
